@@ -1,0 +1,36 @@
+body{
+  background-image: url('cards.jpg');
+  color: white;
+}
+
+.container{
+  background-color: rgba(0, 128, 128, 0.719);
+  width: 80vh;
+  margin: 4vh;
+  padding: 3vh;
+  border-radius: 1vh;
+}
+
+input, button{
+  border-radius: 1vh;
+  padding: 1vh;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button{
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  border: 0.3vh solid teal;
+  margin: 0 1vh;
+}
+
+button:hover{
+  background-color: #024747;
+  border: 0.3vh solid #024747;
+  color: white;
+}
